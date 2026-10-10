@@ -3,7 +3,7 @@ Listă de unelte și comenzi utile pentru competițiile de tip CTF
 
 # Repartizare pe categorii
 
-# OSINT:
+# 🔍 OSINT:
 
 - Reverse Google Image Search = pentru a identifica o imagine
 - Reverse username search site sau toolul sherlock de pe terminal = pentru a cauta un username pe Internet
@@ -12,9 +12,9 @@ Listă de unelte și comenzi utile pentru competițiile de tip CTF
 - Wayback Machine (archive.org) = pentru a vedea versiuni vechi ale unor site-uri sau pagini șterse
 - shodan.io = OSINT tool suprem
 
-# Steganography:
+# 🧩 Steganography:
 
-Imagini:
+🖼️ Imagini:
 
 - AperiSolve (aperisolve.com) = rulează automat zsteg, steghide, outguess, exiftool și binwalk dintr-un singur upload, de multe ori siteul este inactiv
 - outhorseyourstego.com = varianta alternativa pentru AperiSolve
@@ -26,18 +26,18 @@ Imagini:
 - stegsolve.jar = pentru a schimba colorizarea imaginilor si a vedea mesaje ascunse
 - zsteg = unealtă CLI excelentă pentru analizat imagini PNG/BMP pe layere LSB (Least Significant Bit) 
 
-Audio:
+🔊 Audio:
 
 - Audacity, view spectogram la setari = pentru a vedea mesaje ascunse in vibratiile audio
 
-# Reverse Engineering și Binary Exploitation (Pwn):
+# ⚙️ Reverse Engineering și Binary Exploitation (Pwn):
 
 - checksec = verifica ce protocoale de securitate are un executabil
 - ghidra = tool pentru a vedea codul unui executabil
 - gdb = util pentru buffer overflow si pentru a intelege memoria programului
 - pwndbg = extensie pentru gdb care adaugă o interfață vizuală în terminal pentru registre, stivă și instrucțiuni Assembly
 
-# Forensics:
+# 🔬 Forensics:
 
 - Wireshark / tshark = analiza traficului de rețea din fișiere .pcap sau .pcapng
 - Volatility 3 = unealta supremă pentru analiza fișierelor de memorie RAM (memory dumps)
@@ -45,14 +45,14 @@ Audio:
 - FTK Imager = pentru analiza imaginilor de disc/sisteme de fișiere (Windows/Linux)
 - foremost = pentru a repara fisiere png
 
-# Web Exploitation
+# 🌐 Web Exploitation
 
 - Burp Suite = proxy esențial pentru interceptarea, modificarea și analiza cererilor HTTP/HTTPS
 - OWASP ZAP = alternativă open-source gratuită la Burp Suite, se poate folosi si cu acelasi scop ca gobuster
 - gobuster = unealta rapida din terminal pentru fuzzer de directoare, fișiere și subdomenii (gobuster dir -u <URL> -w <wordlist>)
 - SQLMap = automatizare pentru detectarea și exploatarea vulnerabilităților de tip SQL Injection (sqlmap -u <URL> --batch)
 
-# Cryptography
+# 🔐 Cryptography
 
 - CyberChef = pentru cifruri clasice (Caesar, Vigenère, ROT13, Rail Fence)
 - dcode.fr = pentru mai multe cifruri
